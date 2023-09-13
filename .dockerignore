@@ -1,6 +1,6 @@
 *
-!app
-!scripts
+!app.py
+#!scripts
 !pyproject.toml
 !poetry.lock
 !alembic.ini

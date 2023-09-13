@@ -46,7 +46,7 @@ COPY . .
 
 RUN poetry install
 
-CMD ["litestar", "run", "--host", "0.0.0.0"]
+CMD ["litestar", "run", "--host", "0.0.0.0", "-r"]
 
 
 
